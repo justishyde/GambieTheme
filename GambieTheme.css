@@ -4106,9 +4106,22 @@ body #ChannelsPreview::before {
 .botTagVerified_a9e77f > path /* bot tag checkmark */ {
 	fill: var(--text-1);
 }
+.lowerBadge_c5f96a::before {
+	content: '';
+	display: block;
+	z-index: -1;
+	background: var(--bg-1);
+	border-radius: 50%;
+}
+/* custom dm button background instead of icon */
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
+	background-color: transparent !important;
+	background-size: cover;
+} 
 /* fix discovery icon */
 #app-mount.footer_d71945 {
-	background: var(--bg-overlay-app-frame, var(--bg-4));
+	background: var(--bg-overlay-app-frame, var(--bg-1));
 }
 .fixedDiscoveryIcon_fea3ef {
 	color: var(--green-360);
