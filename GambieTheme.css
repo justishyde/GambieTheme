@@ -70,6 +70,8 @@
   --accent-1: rgb(var(--accent));
   --bg-1: rgb(var(--accent));
   --text-1: rgb(var(--accent));
+  --green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43);
+  --blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2);
 }
 
 html,
@@ -4086,10 +4088,20 @@ body #ChannelsPreview::before {
   --vc-spotify-green: var(--accent-1);
 }
 
-#app-mount.iconBadge_c96c45.isCurrentUserConnected_c96c45 /* change server vc badge to neutral */ {
+.iconBadge_c96c45.isCurrentUserConnected_c96c45 /* change server vc badge to neutral */ {
 	background-color: var(--bg-1);
 	color: var(--text-1);
 }
+
+/* color fix filters */
+.container_aef5fd:last-child .icon_aef5fd /* explore discoverable servers icon color */ {
+	background-color: #3ba55c;
+	filter: var(--green-to-accent-3-filter);
+}
+.container_aef5fd:first-child .icon_aef5fd /* explore discoverable servers icon color */ {
+	filter: var(--blurple-to-accent-3-filter);
+}
+
 
 :root {
   --server-unread-colour: 255, 255, 255;
