@@ -709,6 +709,9 @@ html.theme-light .container_b2ca13 {
 #app-mount .circleIconButton_db6521 {
   background: rgba(255, 255, 255, 0.1);
 }
+#app-mount .circleIconButton_db6521 path {
+  fill: rgb(var(--accent));
+}
 #app-mount .wrapper__8436d.selected_ae80f7,
 #app-mount .circleIconButton_db6521:hover {
   background: rgba(255, 255, 255, 0.15);
