@@ -67,7 +67,9 @@
   --brand-experiment: rgb(var(--accent), 0.35);
   --brand-experiment-560: rgb(var(--accent), 0.55);
   --brand-experiment-600: rgb(var(--accent), 0.4);
-  --accent-1: var(--rs-online-color);
+  --accent-1: rgb(var(--accent));
+  --bg-1: rgb(var(--accent));
+  --text-1: rgb(var(--accent));
 }
 
 html,
