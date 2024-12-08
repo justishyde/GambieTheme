@@ -4137,7 +4137,7 @@ body #ChannelsPreview::before {
   transform: translate(-50%, -50%);
   width: calc(var(--server-size, 48px) + 8px);
   height: calc(var(--server-size, 48px) + 8px);
-  overflow: visible;
+  overflow: hidden;
   margin-left: -2px;
 }
 #app-mount .listItem_c96c45 [class*=pill] .item_c4cd66 {
