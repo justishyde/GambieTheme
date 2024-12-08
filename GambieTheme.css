@@ -4092,13 +4092,24 @@ body #ChannelsPreview::before {
 	color: var(--text-1);
 }
 .container_aef5fd:last-child .icon_aef5fd /* explore discoverable servers icon color */ {
-	background-color: #ffffff;
+	background-color: #3ba55c;
 	filter: var(--green-to-accent-3-filter);
 }
 .container_aef5fd:first-child .icon_aef5fd /* explore discoverable servers icon color */ {
 	filter: var(--blurple-to-accent-3-filter);
 }
-
+.theme-dark .tooltipGreen_b6c360, .theme-light .tooltipGreen_b6c360 /* tooltip text like vc latency */ {
+	color: var(--text-1);
+}
+[class*="selectedCategoryItem_"] /* selected discover page */ {
+	color: var(--text-1) !important;
+}
+[class*="selectedCategoryItem_"] path /* fix */ {
+	fill: currentColor;
+}
+.botTagVerified_a9e77f > path /* bot tag checkmark */ {
+	fill: var(--text-1);
+}
 
 :root {
   --server-unread-colour: 255, 255, 255;
