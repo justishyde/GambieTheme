@@ -69,7 +69,7 @@
   --brand-experiment-600: rgb(var(--accent), 0.4);
   --accent-1: rgb(var(--accent));
   --bg-1: rgb(var(--accent));
-  --text-1: rgb(0 0 0 / 1);
+  --text-1: rgb(255, 255, 255);
   --green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43);
   --blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2);
 }
