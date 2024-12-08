@@ -4071,6 +4071,14 @@ body #ChannelsPreview::before {
   content: none;
 }
 
+/* fix discovery icon */
+#app-mount.footer_d71945 {
+	background: var(--bg-overlay-app-frame, var(--bg-4));
+}
+.fixedDiscoveryIcon_fea3ef {
+	color: var(--green-360);
+}
+
 #app-mount #vc-spotify-player {
   background: transparent;
   --vc-spotify-green: var(--accent-1);
