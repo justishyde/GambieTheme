@@ -4092,7 +4092,6 @@ body #ChannelsPreview::before {
 	color: var(--text-1);
 }
 .container_aef5fd:last-child .icon_aef5fd /* explore discoverable servers icon color */ {
-	background-color: #3ba55c;
 	filter: var(--green-to-accent-3-filter);
 }
 .container_aef5fd:first-child .icon_aef5fd /* explore discoverable servers icon color */ {
